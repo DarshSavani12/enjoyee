@@ -1,0 +1,22 @@
+2022-05-23T13:57:07+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp\htdocs\woo\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp\htdocs\woo\wp-includes\class-wp-widget.php(456): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp\htdocs\woo\wp-admin\includes\ajax-actions.php(2356): WP_Widget->update_callback(Array)
+#2 C:\xampp\htdocs\woo\wp-includes\class-wp-hook.php(307): wp_ajax_save_widget('')
+#3 C:\xampp\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\woo\wp-admin\admin-ajax.php(187): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in C:\xampp\htdocs\woo\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
+2022-05-23T13:57:21+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp\htdocs\woo\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp\htdocs\woo\wp-includes\class-wp-widget.php(456): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp\htdocs\woo\wp-admin\includes\ajax-actions.php(2356): WP_Widget->update_callback(Array)
+#2 C:\xampp\htdocs\woo\wp-includes\class-wp-hook.php(307): wp_ajax_save_widget('')
+#3 C:\xampp\htdocs\woo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\woo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\woo\wp-admin\admin-ajax.php(187): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in C:\xampp\htdocs\woo\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
